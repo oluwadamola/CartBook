@@ -1,0 +1,90 @@
+section.top h2 {
+	margin-bottom: 0;
+}
+section .blocks {
+	margin-top: 75px;
+}
+section .account-box {
+	display: none;
+	padding: 25px;
+	background-color: #f0ebff;
+	border-radius: 10px;
+	margin-top: 75px;
+}
+section .account-box .account-section:not(:last-child) {
+	margin-bottom: 25px;
+}
+section .account-box .account-section.transfer-date {
+	font-size: 20px;
+	font-weight: 600;
+}
+section .account-box .account-section .title {
+	color: #8963d7;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+}
+section .account-box .account-section .value {
+	font-size: 24px;
+	overflow-x: auto;
+	line-height: 48px;
+	font-weight: 600;
+}
+section .account-box .account-section .value.pink {
+	color: #d385e1;
+}
+section .block-text {
+	margin: 35px 0;
+	font-size: 18px;
+	line-height: 28px;
+}
+section .block-text .title {
+	font-size: 24px;
+	line-height: 36px;
+	color: #8963d7;
+	margin-bottom: 10px;
+}
+section .block-text:first-child {
+	margin-top: 0;
+}
+section .block-text:last-child {
+	margin-bottom: 0;
+}
+section #check-account {
+	text-align: center;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section #check-account .status {
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+}
+section #check-account button {
+	margin-top: 25px;
+}
+
+
+/*
+ * Desktops
+ */
+@media (min-width: 1100px) {
+
+}
+
+
+/*
+ * Tablets
+ */
+@media (max-width: 1099px) and (min-width: 480px) {
+
+}
+
+
+/*
+ * Mobile Phones
+ */
+@media (max-width: 479px) {
+
+}

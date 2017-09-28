@@ -1,0 +1,54 @@
+.slack-form {
+	position: relative;
+}
+.slack-logo {
+	height: 80px;
+	margin-bottom: 30px;
+}
+.slack-sign-in {
+	padding-top: 20px;
+	font-size: 20px;
+}
+.slack-msg {
+	font-size: 18px;
+	position: absolute;
+	width: 100%;
+	margin-top: -5px;
+}
+.slack-msg:empty {
+	display: none;
+}
+.slack-msg.success {
+	color: #63d694;
+}
+.slack-msg.error {
+	color: #FF0000;
+}
+.slack-button {
+	margin-top: 65px;
+}
+.mdl-textfield {
+	width: 85%;
+}
+section.invite .center {
+	max-width: 500px;
+}
+section.top h2 {
+	margin-bottom: 0;
+}
+
+
+/*
+ * Tablets
+ */
+@media (max-width: 1099px) and (min-width: 480px) {
+
+}
+
+
+/*
+ * Mobile Phones
+ */
+@media (max-width: 479px) {
+
+}

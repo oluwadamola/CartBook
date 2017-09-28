@@ -1,0 +1,1053 @@
+/**
+ * General
+ */
+.particles-js-canvas-el {
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+}
+section.top {
+	position: relative;
+}
+section.top:after {
+	content: "";
+	width: 1000px;
+	height: 1000px;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	right: 0;
+	background: url(../images/index/purple-top-left-shade.png) no-repeat bottom right;
+	background-size: 100% 100%;
+}
+section.top #particles {
+	position: relative;
+	z-index: 5;
+}
+section.top .center {
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+section.top h1 {
+	font-size: 46px;
+}
+section.top h2 {
+	max-width: 635px;
+	font-size: 26px;
+	line-height: 38px;
+	margin-top: 20px;
+}
+section.top .links {
+	margin-top: 100px;
+	margin-left: 100px;
+}
+section.top .links .social a {
+	padding: 0 15px;
+	color: #ccdbeb;
+	font-size: 18px;
+}
+section.top .links .social {
+	margin-bottom: 15px;
+}
+section.top .links .conversation {
+	font-size: 16px;
+	color: #ccdbeb;
+}
+section.top .links .social a:last-child {
+	padding-right: 0;
+}
+section.top .links .social a:first-child {
+	padding-left: 0;
+}
+.contribute-box {
+	max-width: 540px;
+	padding: 35px 35px;
+	border-radius: 15px;
+	background-color: #291a4b;
+	margin: 10px auto auto auto;
+	box-shadow: 0px 0px 100px 35px rgba(0, 0, 0, 0.7);
+}
+.contribute-box .status {
+	font-size: 22px;
+	text-align: center;
+	color: #ccdbeb;
+}
+.contribute-box .timer {
+	margin-top: 25px;
+	font-size: 42px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: auto;
+	max-width: 325px;
+	font-weight: 600;
+	margin-right: auto;
+}
+.contribute-box .timer .frame {
+	width: 25%;
+}
+.contribute-box .timer .frame .text {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 32px;
+}
+.contribute-box .mdl-button {
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 315px;
+	margin: 20px auto auto auto;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+section.top .presale-completed {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	vertical-align: middle;
+	line-height: 32px;
+}
+section.top .presale-completed img {
+	margin-right: 5px;
+}
+.video-play-wrapper {
+	position: absolute;
+	width: 222px;
+	bottom: -40px;
+	right: 105px;
+}
+.video-play {
+	cursor: pointer;
+}
+.video-play-wrapper .what-is {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #ccdbeb;
+	letter-spacing: 0.5px;
+}
+
+
+/**
+ * Roadmap
+ */
+section.roadmap .center {
+	max-width: 850px;
+	padding-bottom: 0;
+}
+section.roadmap .roadmap-wrapper {
+	margin-top: 60px;
+}
+section.roadmap .left-side,
+section.roadmap .right-side {
+	width: 46%;
+	position: relative;
+}
+section.roadmap .left-side {
+	text-align: right;
+}
+section.roadmap .right-side {
+	text-align: left;
+}
+section.roadmap .map-wrapper {
+	position: relative;
+	width: 10%;
+	padding: 0 15px;
+}
+section.roadmap img.game-heads {
+	position: absolute;
+	bottom: -135px;
+	left: 50%;
+	display: block;
+	margin-left: -221.5px;
+}
+section.roadmap .map-wrapper .dot {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #674aa5;
+	position: relative;
+	margin: auto;
+}
+section.roadmap .map-wrapper .dot-inner {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background-color: #362a61;
+	border: 5px solid #0a0b21;
+}
+section.roadmap .map-wrapper .dot.completed .dot-inner {
+	background: url(../images/index/roadmap-enjin-logo.png) no-repeat center center;
+	background-size: 100% 100%;
+	width: 101px;
+	height: 101px;
+	position: relative;
+	background-position: 0px 0px;
+	left: -31px;
+	top: -30px;
+	border: none;
+}
+section.roadmap .map-wrapper .line {
+	height: 115px;
+	width: 3px;
+	text-align: center;
+	margin: auto;
+	background-color: #674aa5;
+}
+section.roadmap .map-wrapper .line.long {
+	height: 345px;
+}
+section.roadmap .map-wrapper .line.extra {
+	height: 150px;
+}
+section.roadmap .mdl-button {
+	display: block;
+	max-width: 200px;
+	position: relative;
+	top: -6px;
+	padding: 5px 25px 5px 25px;
+}
+section.roadmap .dot-block {
+	position: absolute;
+}
+section.roadmap .left-side .dot-block {
+	right: 0;
+}
+section.roadmap .right-side .dot-block {
+	left: 0;
+}
+section.roadmap .dot1-block {
+	top: 7px;
+}
+section.roadmap .dot2-block {
+	top: 168px;
+}
+section.roadmap .dot3-block {
+	top: 326px;
+}
+section.roadmap .dot4-block {
+	top: 486px;
+}
+section.roadmap .dot5-block {
+	top: 678px;
+}
+section.roadmap .dot6-block {
+	top: 839px;
+}
+section.roadmap .dot7-block {
+	top: 997px;
+}
+section.roadmap h3 {
+	font-size: 28px;
+}
+section.roadmap .dot-text {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+
+/**
+ * Coins
+ */
+section.coin .coin-blocks {
+	padding-top: 50px;
+}
+section.coin .coin-blocks .coin-block:first-child {
+	margin-top: 0;
+}
+section.coin .coin-blocks .coin-block:last-child {
+	margin-bottom: 0;
+}
+section.coin .coin-blocks .coin-block .text {
+	color: #ccdbeb;
+	font-size: 18px;
+	line-height: 24px;
+}
+section.coin .coin-blocks .coin-block img {
+	position: absolute;
+}
+section.coin .coin-block {
+	position: relative;
+	margin: 80px 0;
+}
+section.coin .coin-blocks .hammer {
+	padding-left: 200px;
+}
+section.coin .coin-blocks .book {
+	padding-left: 300px;
+}
+section.coin .coin-blocks .sword {
+	padding-left: 200px;
+}
+section.coin .coin-blocks .helmet {
+	padding-left: 300px;
+}
+section.coin .coin-blocks .hammer img {
+	top: -58px;
+	left: -40px;
+}
+section.coin .coin-blocks .book img {
+	top: -65px;
+	left: 60px;
+}
+section.coin .coin-blocks .sword img {
+	top: -65px;
+	left: -40px;
+}
+section.coin .coin-blocks .helmet img {
+	top: -65px;
+	left: 60px;
+}
+
+
+/**
+ * Minting / Creating
+ */
+section.create .center {
+	padding-bottom: 525px;
+}
+section.create img.factory {
+	position: absolute;
+	left: -75px;
+	bottom: -160px;
+}
+section.create .block-1 h3,
+section.create .block-2 h3 {
+	font-size: 28px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+section.create .block-1 .text,
+section.create .block-2 .text {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 200;
+}
+section.create .block-1 {
+	position: absolute;
+	top: 335px;
+	left: 390px;
+}
+section.create .block-2 {
+	position: absolute;
+	top: 505px;
+	left: 390px;
+}
+section.create .github-code {
+	position: relative;
+	top: 385px;
+	float: right;
+	width: 200px;
+	text-align: left;
+}
+section.create .github-code i {
+	font-size: 46px;
+	position: absolute;
+	right: 20px;
+	top: 6px;
+}
+
+
+/**
+ * Wallet
+ */
+section.wallet {
+	overflow-x: hidden;
+}
+section.wallet .center {
+	padding-bottom: 0;
+	padding-top: 210px;
+}
+section.wallet .wallet-images {
+	position: relative;
+	margin-top: -100px;
+}
+section.wallet .art {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+section.wallet .concept-1 {
+	position: relative;
+	left: -256px;
+	text-align: center;
+}
+section.wallet .concept-2 {
+	position: absolute;
+	top: 0;
+	left: 209px;
+	text-align: center;
+}
+section.wallet .concept-1 .description {
+	left: 25px;
+}
+section.wallet .concept-2 .description {
+	left: -5px;
+}
+section.wallet .description {
+	top: 160px;
+	position: relative;
+	font-style: italic;
+	font-size: 16px;
+	color: #a2a2a2;
+}
+
+
+/**
+ * Team
+ */
+section.team .center {
+	max-width: 1000px;
+	padding-bottom: 125px;
+}
+section.team .members {
+	margin-top: 65px;
+}
+section.team .members .member {
+	text-align: center;
+}
+section.team .members.core .member {
+
+}
+section.team .members .member img {
+	width: 100%;
+	max-width: 213px;
+	cursor: pointer;
+}
+section.team .member .name {
+	font-size: 26px;
+	color: #8963d7;
+	font-weight: 600;
+	line-height: 32px;
+	white-space: nowrap;
+	padding: 20px 0 15px 0;
+}
+section.team .member .position {
+	color: #cd63d7;
+	font-size: 22px;
+	font-weight: 600;
+}
+section.team .member .mdl-button {
+	margin-top: 25px;
+	max-width: 135px;
+	padding: 5px 35px;
+	border-color: #d4b7ec;
+}
+section.team .extra-staff-line {
+	text-align: center;
+	margin-top: 45px;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600 !important;
+}
+section.team .members .pat {
+	width: 100%;
+}
+section.team .member .mini-bio {
+	font-size: 21px;
+	line-height: 32px;
+	max-width: 700px;
+	text-align: center;
+	font-weight: initial;
+	margin: 25px auto 0 auto;
+}
+
+
+/**
+ * Crowdsale details
+ */
+section.crowdsale .center {
+	max-width: 900px;
+}
+section.crowdsale {
+	border-top: 4px solid rgba(229, 229, 229, 0.36);
+	background-color: #f0f0f0;
+}
+section.crowdsale .blocks {
+	margin-top: 50px;
+}
+section.crowdsale .block {
+	margin: 35px 0;
+	font-size: 20px;
+	line-height: 32px;
+}
+section.crowdsale .block .title {
+	font-size: 26px;
+	line-height: 36px;
+	color: #8963d7;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+section.crowdsale .block:first-child {
+	margin-top: 0;
+}
+section.crowdsale .block:last-child {
+	margin-bottom: 0;
+}
+section.crowdsale .block .mdl-grid {
+	padding: 0;
+}
+section.crowdsale .block .mdl-cell:first-child {
+	margin-left: 0;
+}
+section.crowdsale .block .mdl-cell:last-child {
+	margin-right: 0;
+}
+section.crowdsale .block .left {
+	font-weight: bold;
+	display: inline-block;
+	width: 125px;
+}
+section.crowdsale .block .row {
+	margin: 5px 0;
+}
+section.crowdsale .block .money-raised {
+	color: #8963d7;
+	font-size: 32px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	line-height: 2px;
+}
+section.crowdsale .buttons {
+	text-align: left;
+	margin-top: 25px;
+}
+
+
+/**
+ * Media
+ */
+section.media .center {
+	padding-top: 145px;
+	max-width: 1000px;
+}
+section.media .articles {
+	margin-top: 50px;
+}
+section.media .article {
+	border-radius: 10px;
+}
+section.media .article .top {
+	background-color: #c0b7e4;
+	height: 225px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 100%;
+}
+section.media .article .bottom {
+	padding: 25px;
+	background-color: #f9f9f9;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+section.media .article .title {
+	color:  #8963d7;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: bold;
+}
+section.media .article .description {
+	color: #979697;
+	line-height: 22px;
+	margin: 25px 0 45px 0;
+	font-weight: 600;
+	font-size: 16px;
+}
+section.media .article .meta .date {
+	color: #807f94;
+	font-weight: bold;
+}
+section.media .article .meta .mdl-button {
+	float: right;
+	width: 100px;
+	font-size: 16px;
+	padding: 0px 10px;
+	margin-top: -30px;
+	border-color: #d4b7ec;
+}
+section.media .article.bancor-announcement .top {
+	background: url('../images/index/media-bancor.jpg') no-repeat center center;
+}
+section.media .article.icoalert .top {
+	background: url('../images/index/media-icoalert.jpg') no-repeat center center;
+}
+section.media .article.coinomi .top {
+	background: url('../images/index/media-coinomi.png') no-repeat center center;
+}
+section.media .article.hacked .top {
+	background: url('../images/index/media-hacked.jpg') no-repeat center center;
+}
+section.media .article.boxmining .top {
+	background: url('../images/index/media-boxmining.png') no-repeat center center;
+}
+section.media .article.patlabine .top {
+	background: url('../images/index/media-patlabine.png') no-repeat center center;
+}
+section.media .article.cointelegraph .top {
+	background: url('../images/index/media-cointelegraph.png') no-repeat center center;
+}
+section.media .article.blockshow .top {
+	background: url('../images/index/media-blockshow.png') no-repeat center center;
+}
+
+
+/**
+ * Partners
+ */
+section.partners .center {
+	padding-bottom: 375px;
+}
+section.partners .main-partners {
+	padding-bottom: 75px;
+}
+section.partners .coin-friends {
+	position: absolute;
+	bottom: -120px;
+	left: 125px;
+}
+section.partners .mdl-button {
+	display: block;
+	max-width: 210px;
+	margin: 65px auto auto auto;
+}
+
+
+/**
+ * Subscribe
+ */
+section.subscribe .center {
+	padding-top: 125px;
+}
+section.subscribe #email-subscribe {
+	max-width: 550px;
+	margin: auto;
+}
+section.subscribe #email-subscribe .mdl-grid {
+	padding: 0;
+}
+section.subscribe #email-subscribe .mdl-textfield {
+	margin-left: 0;
+}
+section.subscribe #email-subscribe h1 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section.subscribe #email-subscribe .mdl-button {
+	height: 50px;
+	padding: 5px 10px;
+	margin-right: 0;
+	position: relative;
+	right: -15px;
+}
+section.subscribe #contact-us {
+	max-width: 550px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section.subscribe #contact-us h1 {
+	margin-bottom: 35px;
+}
+section.subscribe #contact-us .mdl-button {
+	max-width: 300px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 25px auto 0 auto;
+	display: block;
+}
+section.subscribe .alternate-address {
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 25px;
+}
+section.subscribe form .status:empty {
+	display: none;
+}
+section.subscribe form .status {
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+}
+
+
+/**
+ * Dialogs
+ */
+.bio-dialog {
+	text-align: center;
+	max-width: 625px;
+}
+.bio-dialog .mdl-dialog__title {
+	font-size: 38px;
+	color: #8963d7;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.bio-dialog .mdl-dialog__content {
+	padding-top: 15px;
+}
+.bio-dialog .position {
+	color: #cd63d7;
+	font-size: 24px;
+	font-weight: 600;
+}
+.bio-dialog .bio-picture {
+	height: 195px;
+	margin: 25px 0 25px 0;
+}
+.bio-dialog .bio {
+	color: #7b87a5;
+	font-size: 21px;
+	line-height: 28px;
+	text-align: left;
+	font-weight: 200;
+}
+.video-dialog {
+	max-width: 610px;
+}
+.bio-dialog .linked-in {
+	position: absolute;
+	top: 207px;
+	left: 50%;
+	margin-left: 40px;
+}
+
+
+/*
+ * Desktops
+ */
+@media (min-width: 1100px) {
+
+}
+
+
+/*
+ * Tablets
+ */
+@media (max-width: 1099px) and (min-width: 480px) {
+	section.top .links {
+		text-align: center;
+		margin-left: auto !important;
+		margin-top: 50px !important;
+		margin-right: auto;
+	}
+	section.top .center {
+		padding-bottom: 185px !important;
+	}
+	section.top .contribute-box {
+		margin-top: 50px;
+	}
+	section.top .video-play-wrapper {
+		left: 50%;
+		margin-left: -111px;
+	}
+	section.top .contribute-box .status {
+		line-height: 28px;
+	}
+	section.top .contribute-box .status .yellow {
+		display: block;
+		margin-bottom: 15px;
+		font-size: 28px;
+	}
+	section.coin .coin-blocks img {
+		left: -45px !important;
+	}
+	section.coin .coin-blocks .coin-block {
+		padding-left: 200px !important;
+	}
+	section.wallet .center {
+		padding-top: 75px;
+		padding-bottom: 1365px;
+	}
+	section.wallet .concept-1 img,
+	section.wallet .concept-2 img {
+		width: 100%;
+	}
+	section.wallet .concept-1 .description,
+	section.wallet .concept-2 .description {
+		left: 0px;
+		top: 125px
+	}
+	section.wallet .concept-1 {
+		position: absolute;
+		width: 700px;
+		left: 50%;
+		margin-left: -350px;
+	}
+	section.wallet .concept-2 {
+		position: absolute;
+		width: 700px;
+		top: 645px;
+		left: 50%;
+		margin-left: -350px;
+	}
+	section.partners .center {
+		padding-bottom: 300px;
+	}
+	section.partners .coin-friends {
+		width: 475px;
+		left: 50%;
+		margin-left: -245px;
+		bottom: -92px;
+	}
+	section.subscribe #email-subscribe .mdl-textfield {
+		margin-left: auto;
+	}
+	section.subscribe #email-subscribe button {
+		margin-right: auto !important;
+		right: 0 !important;
+		width: 250px;
+		margin-left: auto;
+	}
+	section.team .members.core .member:first-child {
+		margin-bottom: 50px;
+	}
+	section.create img.factory {
+		display: none;
+	}
+	section.create .center {
+		padding-bottom: 75px;
+	}
+	section.create .block-1 {
+		position: relative;
+		top: 0;
+		left: 0;
+		text-align: center;
+		margin-top: 75px;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section.create .block-2 {
+		position: relative;
+		top: 0;
+		left: 0;
+		text-align: center;
+		margin-top: 75px;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section.create .github-code {
+		top: 0;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 75px;
+	}
+	section.crowdsale .block .left {
+		width: auto;
+	}
+}
+
+
+/*
+ * Mobile Phones
+ */
+@media (max-width: 479px) {
+	section.top .links {
+		text-align: center;
+		margin-left: auto !important;
+		margin-top: 50px !important;
+		margin-right: auto;
+	}
+	section.top .center {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 185px !important;
+	}
+	section.top .contribute-box {
+		margin-top: 50px;
+	}
+	section.top .video-play-wrapper {
+		left: 50%;
+		margin-left: -111px;
+	}
+	section.top .contribute-box .status {
+		line-height: 28px;
+	}
+	section.top .contribute-box .status .yellow {
+		display: block;
+		margin-bottom: 15px;
+		font-size: 28px;
+	}
+	section.coin .coin-blocks img {
+		left: 50% !important;
+		margin-left: -126.5px;
+	}
+	section.coin .coin-blocks .coin-block {
+		padding-left: 0 !important;
+		text-align: center;
+		padding-top: 175px;
+	}
+	section.wallet .center {
+		padding-top: 75px;
+		padding-bottom: 1065px;
+	}
+	section.wallet .concept-1 img,
+	section.wallet .concept-2 img {
+		width: 100%;
+	}
+	section.wallet .concept-1 .description,
+	section.wallet .concept-2 .description {
+		left: 0px;
+		top: 90px
+	}
+	section.wallet .concept-1 {
+		position: absolute;
+		width: 500px;
+		top: 50px;
+		left: 50%;
+		margin-left: -250px;
+	}
+	section.wallet .concept-2 {
+		position: absolute;
+		width: 500px;
+		top: 545px;
+		left: 50%;
+		margin-left: -250px;
+	}
+	section.roadmap .roadmap-wrapper {
+		display: block;
+	}
+	section.roadmap .map-wrapper {
+		width: 50px;
+	}
+	section.roadmap img.game-heads {
+		width: 335px;
+		left: 50%;
+		bottom: -120px;
+		margin-left: -167.5px;
+	}
+	section.roadmap .dot-block {
+		left: 0;
+	}
+	section.roadmap .right-side {
+		position: absolute;
+		top: 244px;
+	}
+	section.roadmap .left-side,
+	section.roadmap .right-side {
+		text-align: left;
+		margin-left: 85px;
+		width: 70%;
+	}
+	section.roadmap .left-side {
+		padding-left: 25px;
+	}
+	section.roadmap .mdl-button {
+		display: none;
+	}
+	section.roadmap .map-wrapper .line {
+		height: 165px;
+	}
+	section.roadmap .map-wrapper .line:nth-child(8) {
+		height: 295px;
+	}
+	section.roadmap .dot2-block {
+		top: 218px;
+	}
+	section.roadmap .dot3-block {
+		top: 426px;
+	}
+	section.roadmap .dot4-block {
+		top: 636px;
+	}
+	section.roadmap .dot5-block {
+		top: 974px;
+	}
+	section.roadmap .dot6-block {
+		top: 1184px;
+	}
+	section.roadmap .dot7-block {
+		top: 1393px;
+	}
+	section.roadmap .map-wrapper .line.long {
+		height: 300px;
+	}
+	section.partners .center {
+		padding-bottom: 215px;
+	}
+	section.partners .coin-friends {
+		width: 375px;
+		left: 50%;
+		margin-left: -187.5px;
+		bottom: -92px;
+	}
+	section.subscribe #email-subscribe .mdl-textfield {
+		margin-left: auto;
+	}
+	section.subscribe #email-subscribe button {
+		margin-right: auto !important;
+		right: 0 !important;
+		width: 250px;
+		margin-left: auto;
+	}
+	section.team .members .member:not(:last-child) {
+		margin-bottom: 50px;
+	}
+	section.create img.factory {
+		display: none;
+	}
+	section.create .center {
+		padding-bottom: 75px;
+	}
+	section.create .block-1 {
+		position: relative;
+		top: 0;
+		left: 0;
+		text-align: center;
+		margin-top: 75px;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section.create .block-2 {
+		position: relative;
+		top: 0;
+		left: 0;
+		text-align: center;
+		margin-top: 75px;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section.create .github-code {
+		top: 0;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 75px;
+	}
+	section.crowdsale .mdl-grid .mdl-cell {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	section.crowdsale .block {
+		text-align: center;
+	}
+	section.crowdsale .block .row {
+		margin: 15px 0;
+	}
+	section.crowdsale .block .left {
+		display: block;
+		margin: auto;
+	}
+	.contribute-box {
+		padding: 35px 20px
+	}
+}
+
+@media (max-width: 400px) {
+	section.top .links .social a:last-child {
+		display: none;
+	}
+}
